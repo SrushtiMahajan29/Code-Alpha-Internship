@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Poppins',sans-serif,; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(images/day/cloudy3.jpg);
+    background: linear-gradient(90deg, #44534f, #beff45);
+}
+
+.card {
+    width: 100%;
+
+    max-width: 470px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    /* border-radius: 20px; */
+    padding: 40px 35px;
+    text-align: center;
+    opacity: 0.8;
+    
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 20px;
+    font-size: 18px;
+
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img {
+    width: 25px;
+}
+
+.weather {
+    background: linear-gradient(120deg, #00feba, #5b548a);
+    border-radius: 2%;
+    opacity: 1;
+}
+
+.weather-icon {
+    width: 100px;
+    margin-top: 20px;
+
+}
+
+.weather h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 5px;
+    color: black;
+    text-shadow: 2px black;
+}
+
+.weather h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 0px;
+    color: black;
+    text-shadow: 2px black;
+}
+
+.weather h3 {
+    font-size: 17px;
+    font-weight: 500;
+    color: #4a3535;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-shadow: 2px black;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+.col {
+    align-items: center;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.humidity,
+.wind {
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
